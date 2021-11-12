@@ -19,10 +19,10 @@ int main() {
     int arr[n];
     
     for (int i = 0; i < n; i++) {
-        printf("So nguyen thu %d: ", i);
+        printf("Nhap so thu %d: ", i+1);
         scanf("%d", &arr[i]); 
     }
     
-    printf("Trung binh so ptu mang: %f", average(arr, n));
+    printf("Trung binh so ptu mang: %0.2f", average(arr, n));
     return 0;
 }
